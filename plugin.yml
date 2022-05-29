@@ -1,0 +1,21 @@
+name: OnixMarket
+author: alvin0319
+main: alvin0319\OnixMarket\OnixMarket
+version: 1.0.0
+api: 4.0.0
+
+permissions:
+  onixmarket.market.delete:
+    default: op
+  onixmarket.market.buy:
+    default: true
+  onixmarket.market.sell:
+    default: true
+  onixmarket.command.create:
+    default: op
+  onixmarket.command.buyprice:
+    default: op
+  onixmarket.command.sellprice:
+    default: op
+  onixmarket.command.sell:
+    default: true
